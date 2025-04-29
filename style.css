@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color:rgba(2, 0, 0, 0.719);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: whitesmoke;
+}
+.headertitle{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 30%;
+
+}
+.headertitle img{
+    width: 50px;
+}
+.headertitle h1{
+    /* text-decoration:wavy; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header nav a:hover, header nav a:active{
+    color: rgb(97, 97, 253);
+    /* text-decoration: underline; */
+}
+
+.headersearchbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+.headersearchbar input{
+    width: 60%;
+    height: 60%;
+    border-radius: 15px;
+    border: 1px whitesmoke solid;
+    color:  rgb(37, 132, 163);
+}
+.headerbuttons{
+    background-color: rgb(37, 132, 163);
+    color: whitesmoke;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    /* padding: 5px auto; */
+    margin: 10px ;
+}
+
