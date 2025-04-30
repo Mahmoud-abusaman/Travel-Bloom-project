@@ -12,7 +12,6 @@ header{
     background-color:rgba(2, 0, 0, 0.719);
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 60px;
     color: whitesmoke;
@@ -21,7 +20,7 @@ header{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    width: 30%;
+    width: 50%;
 
 }
 .headertitle img{
@@ -33,6 +32,7 @@ header{
 }
 
 header nav{
+    justify-self: center;
     width: 20%;
     display: flex;
     justify-content: space-between;
@@ -48,52 +48,7 @@ header nav a:hover, header nav a:active{
     /* text-decoration: underline; */
 }
 
-.headersearchbar{
-    padding-right: 40px;
-    position: relative;
-    width: 400px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 35%;
-    height: 100%;
-}
-.headersearchbar input{
-    width: 100%;
-    padding: 10px 40px 10px 10px; 
-    font-size: 16px;
-    box-sizing: border-box;
-    /* width: 60%; */
-    height: 60%;
-    border-radius: 15px;
-    border: 1px whitesmoke solid;
-    color:  rgb(37, 132, 163);
-}
-.headerbuttons{
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
-    position: absolute;
-    right: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 6px 10px;
-    font-size: 14px;
-    cursor: pointer;
-}
-.headerbutton{
-    background-color: rgb(37, 132, 163);
-    color: whitesmoke;
-    border: 1px black solid;
-    width: 60px;
-    height: 30px;
-    border-radius: 5px;
-    /* padding: 5px auto; */
-    margin: 5px ;
-}
-input::placeholder, textarea::placeholder {
-    color: rgba(29, 134, 182, 0.6);
-  }
+
 /* ############################################################### */
 #mainpage{
     position: fixed;
@@ -103,7 +58,7 @@ input::placeholder, textarea::placeholder {
     height: 100%;
     background-color: black;
     color: whitesmoke;
-    background-image: url("./images/landscape-7167174_1280.jpg");
+    background-image: url("../images/landscape-7167174_1280.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,22 +138,70 @@ input::placeholder, textarea::placeholder {
   }
   
   .maincontent p{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.397);
     margin-top: 30px;
-    /* font-size: 50px; */
-    font-weight:bold;
+    /* font-weight:bold; */
     justify-self: flex-end;
   }
-  #booknow{
-    margin-top: 30px;
-    position:static;
-    background-color: rgb(32, 90, 109);
-    color: whitesmoke;
-    border: 1px black solid;
-    width: 120px;
-    height: 40px;
+/* ####### */
+.ourteam{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+
+}
+/* Card Styles */
+.card {
+    background: rgba(0, 0, 0, 0.452);
+    border-radius: 12px;
+    padding: 16px;
+    width: 220px;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header (icon + text) */
+  .card-header {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  /* Icon */
+  .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+
+  }
+  
+  /* Name */
+  .name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Description */
+  .description {
+    margin: 0;
+    font-size: 13px;
+    opacity: 0.8;
     border-radius: 5px;
   }
-  #booknow:hover{
-    background-color: rgb(51, 167, 206);
-
+  
+  .role-button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #3e4ac2;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
   }

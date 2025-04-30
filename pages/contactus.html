@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet" >
+    <link href="./contactus.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <title>Document</title>
@@ -11,22 +11,15 @@
 <body>
     <header id="Header">
         <div class="headertitle">
-            <img src="./images/project.png" alt="logo" class="logo" >
+            <img src="../images/project.png" alt="logo" class="logo" >
             <h1 class="textTitle">TravelBloom</h1>
         </div>
         <nav>
-            <a href="#header" class="navelement">Home</a>
-            <a href="./pages/aboutus.html" class="navelement">About Us</a>
-            <a href="./pages/contactus.html" class="navelement">Contact Us</a>
+            <a href="../index.html" class="navelement">Home</a>
+            <a href="./aboutus.html" class="navelement">About Us</a>
+            <a href="#" class="navelement">Contact Us</a>
         </nav>
-        <div class="headersearchbar">
-            <input type="text" placeholder="  Enter a destination or keyword">
-            <div class="headerbuttons">
-                <button id="searchbutton" class="headerbutton">search</button>
-                <button id="clearbutton" class="headerbutton">clear</button>
-         </div>
 
-        </div>
   
     </header>
     <main id="mainpage">
@@ -50,19 +43,22 @@
             </div>
           </div>
         <div class="maincontent">
-            <h1>
-                EXPLORE <br>
-                DREAM <br>
-               DISTINATION
-            </h1>
-            <p>
-                Welcome to our website,<br>
-                 where innovation meets simplicity.<br>
-                Explore our features and discover how we can help you grow.<br>
-                Stay connected for updates, tips,
-                <br> and exclusive content.
-              </p>
-              <button id="booknow" >BOOK NOW</button>
+            <h1>CONTACT US</h1>
+            <form class="myform">
+                <div>
+                  <label for="name">Name</label><br>
+                  <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div>
+                  <label for="message">Message</label><br>
+                  <textarea id="message" rows="4" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
         </div>
 
     </main>
