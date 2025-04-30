@@ -1,2 +1,7 @@
 # Travel-Bloom-project
-This website helps users discover ideal destinations based on their preferences.
+
+A functional website for your travel recommendation. This website will help users discover ideal destinations based on their preferences.
+
+The website uses interactive displays and provides detailed descriptions and multimedia content. It provides users with a comprehensive overview of each destination, aiding them to make informed travel decisions.
+
+With a user-centric approach, the website prioritizes personalized suggestions, seamless navigation, and engaging content to enhance the user experience and assist in planning memorable trips
