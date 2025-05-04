@@ -3,6 +3,8 @@ const clearbutton=document.getElementById("clearbutton");
 const cardContainer=document.getElementById("cardContainer");
 function clearinput(){
     searchinput.value="";
+    cardContainer.innerHTML="";
+
 }
 clearbutton.addEventListener("click",clearinput);
 
